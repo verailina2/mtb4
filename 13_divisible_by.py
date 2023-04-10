@@ -7,3 +7,12 @@
 #   в списке [1,3,5] на 2 делится []
 
 
+numbers = [1, 2, 3, 4, 5, 6]
+divisor = 2
+result = []
+
+for num in numbers:
+    if num % divisor == 0:
+        result.append(num)
+
+print(result) # [2, 4, 6]
