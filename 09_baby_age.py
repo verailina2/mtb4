@@ -11,3 +11,16 @@
 # Допущение,
 #  в строке всегда должна быть одна цифра!
 
+
+input_string = input()                  # входная строка
+length_string = len(input_string)       # длина входной строки
+result = ''                             # результат из входной строки (возраст)
+i = 0                                   # счетчик
+while i < length_string:
+    current_symbol = input_string[i]
+    if '0' <= current_symbol <= '9':
+        result += str(current_symbol)
+    i += 1
+
+print(result or 'None')
+
