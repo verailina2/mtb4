@@ -16,3 +16,5 @@ for num in numbers:
         result.append(num)
 
 print(result) # [2, 4, 6]
+
+# Супер)
