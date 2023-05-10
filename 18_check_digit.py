@@ -22,3 +22,6 @@ if digit in number[min_index:max_index+1]:
     print (f"Цифра {digit} есть в числе {number} между индексами {min_index} и {max_index}")
 else:
     print(f"Цифры {digit} нет в числе {number} между индексами {min_index} и {max_index}")
+  
+# Супер) 
+# Даже добавить если честно нечего)
